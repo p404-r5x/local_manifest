@@ -5,7 +5,7 @@
       
         <!-- Trees -->
         <project path="device/realme/r5x" name="android_device_realme_r5x" revision="shinka" remote="p404-r5x" />	
-        <project path="kernel/realme/r5x" name="android_kernel_realme_r5x" revision="twelve" remote="p404-r5x" />
+        <project path="kernel/realme/r5x" name="android_kernel_realme_r5x" revision="shinka" remote="p404-r5x" />
         <project path="vendor/realme/r5x" name="android_vendor_realme_r5x" revision="shinka" remote="p404-r5x" />
         
         <!-- Hals -->
