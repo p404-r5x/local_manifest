@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-          
-<!-- Remotes -->
 
-         <remote  name="p404-r5x" fetch="https://github.com/p404-r5x" />
-
-<!-- Trees -->
-         <project path="device/realme/r5x" name="device_realme_r5x" remote="p404-r5x" revision=shinka" />
-         <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="p404-r5x" revision="shinka" />
-         <project path="kernel/realme/r5x" name="kernel_realme_r5x" remote="p404-r5x" revision="twelve" />
-
-<!-- Hals -->
-         <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="p404-r5x" revision="arrow-12.1-caf-sm8150" />
-         <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="p404-r5x" revision="arrow-12.1-caf-sm8150" />
-         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="p404-r5x" revision="arrow-12.1-caf-sm8150" />
+        <remote name="p404-r5x" fetch="https://github.com/p404-r5x" />
+      
+        <!-- Trees -->
+        <project path="device/realme/r5x" name="device_xiaomi_r5x" revision="shinka" remote="p404-r5x" />	
+        <project path="kernel/realme/r5x" name="kernel_xiaomi_r5x" revision="twelve" remote="p404-r5x" />
+        <project path="vendor/realme/r5x" name="vendor_xiaomi_r5x" revision="shinka" remote="p404-r5x" />
+        
+        <!-- Hals -->
+        <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="p404-r5x" revision="arrow-12.1-caf-sm8150" />
+        <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="p404-r5x" revision="arrow-12.1-caf-sm8150" />
+        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="p404-r5x" revision="arrow-12.1-caf-sm8150" />
 
 </manifest>
