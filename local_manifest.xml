@@ -15,8 +15,12 @@
 
         <!-- Nukes -->
         <remove-project name="android_vendor_404" />
-     
+        <remove-project name="android_device_qcom_common" />
+        <remove-project name="proprietary_vendor_qcom_common" />
+
         <!-- Replacements -->
         <project path="vendor/404" name="android_vendor_404" remote="p404-r5x" revision="shinka" />
+        <project path="device/qcom/common" name="android_device_qcom_common" remote="p404-r5x" revision="shinka" />
+        <project path="vendor/qcom/common" name="android_device_qcom_common" remote="p404-r5x" revision="shinka" />
 
 </manifest>
