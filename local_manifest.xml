@@ -15,10 +15,8 @@
 
         <!-- Nukes -->
         <remove-project name="android_vendor_404" />
-        <remove-project name="android_hardware_libhardware" />
         
         <!-- Replacements -->
         <project path="vendor/404" name="android_vendor_404" remote="p404-r5x" revision="shinka" />
-        <project path="hardware/libhardware" name="android_hardware_libhardware" remote="p404-r5x" revision="tokui" />
 
 </manifest>
