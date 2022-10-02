@@ -4,9 +4,9 @@
         <remote name="p404-r5x" fetch="https://github.com/p404-r5x" />
 
         <!-- Trees -->
-        <project path="device/realme/r5x" name="android_device_realme_r5x" revision="tokui" remote="p404-r5x" />	
+        <project path="device/realme/r5x" name="android_device_realme_r5x" revision="staging/tokui" remote="p404-r5x" />	
         <project path="kernel/realme/r5x" name="android_kernel_realme_r5x" revision="tokui" remote="p404-r5x" />
-        <project path="vendor/realme/r5x" name="android_vendor_realme_r5x" revision="tokui" remote="p404-r5x" />
+        <project path="vendor/realme/r5x" name="android_vendor_realme_r5x" revision="staging/tokui" remote="p404-r5x" />
         
         <!-- Hals -->
         <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="p404-r5x" revision="arrow-12.1-caf-sm8150" />
@@ -15,10 +15,8 @@
 
         <!-- Nukes -->
         <remove-project name="android_vendor_404" />
-        <remove-project name="android_hardware_libhardware" />
-        
+
         <!-- Replacements -->
         <project path="vendor/404" name="android_vendor_404" remote="p404-r5x" revision="tokui" />
-        <project path="hardware/libhardware" name="android_hardware_libhardware" remote="p404-r5x" revision="tokui" />
 
 </manifest>
