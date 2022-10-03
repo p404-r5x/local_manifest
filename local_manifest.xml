@@ -16,8 +16,10 @@
 
         <!-- Nukes -->
         <remove-project name="android_vendor_404" />
+        <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
 
         <!-- Replacements -->
         <project path="vendor/404" name="android_vendor_404" remote="p404-r5x" revision="tokui" />
+        <project path="vendor/qcom/opensource/commonsys/fm" name="P-404/android_vendor_qcom-opensource_fm-commonsys" remote="github" revision="tokui" />
 
 </manifest>
