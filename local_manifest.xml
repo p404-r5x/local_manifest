@@ -21,5 +21,4 @@
         <!-- Replacements -->
         <project path="vendor/404" name="android_vendor_404" remote="p404-r5x" revision="tokui" />
         <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" revision="tokui" />
-
 </manifest>
